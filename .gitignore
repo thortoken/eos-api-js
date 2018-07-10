@@ -1,0 +1,8 @@
+# javascript
+#
+node_modules/
+yarn.lock
+dist/
+
+# VSCode stuff
+.vscode

@@ -1,0 +1,39 @@
+{
+  "name": "eos-api-js",
+  "version": "1.0.0",
+  "description": "Javascript library for interacting with the Thor Payments smart contracts on the EOS blockchain.",
+  "main": "dist/foo.js",
+  "module": "dist/foo.es.js",
+  "build": "rollup -c",
+  "scripts": {
+    "test": "mocha --exit --use_strict src/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thortoken/eos-api-js.git"
+  },
+  "keywords": [
+    "EOS",
+    "Blockchain",
+    "Thor"
+  ],
+  "author": "nicco09",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thortoken/eos-api-js/issues"
+  },
+  "homepage": "https://github.com/thortoken/eos-api-js#readme",
+  "dependencies": {
+    "eosjs": "^15.0.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "rollup": "^0.62.0",
+    "rollup-plugin-babel": "^3.0.7",
+    "rollup-plugin-eslint": "^4.0.0"
+  }
+}
