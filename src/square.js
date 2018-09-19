@@ -1,1 +1,1 @@
-export default x => x * x;
+module.exports = { square: x => x * x };

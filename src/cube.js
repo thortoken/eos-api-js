@@ -1,1 +1,1 @@
-export default x => x * x * x;
+module.exports = { cube: x => x * x * x };
